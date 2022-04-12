@@ -82,8 +82,8 @@ int baimo(int player[],float zs_hp,float hm_hp,float bm_hp,float sr_hp,float *bm
         printf("选择治疗目标\n");
         scanf("%d",&chose);
         printf("倾听元灵的告解\n");
-        return chose;
         *bmhp=3.0;
+        return chose;
         break;
     case 2:*bmall=0.8;
     printf("感受元灵的慰藉\n");
