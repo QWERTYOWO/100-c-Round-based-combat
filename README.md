@@ -1,3 +1,4 @@
 # 100-c-Round-based-combat
-目前未完成！！！
-not completed yet！！！
+已经基本完成
+1.包含四个职业，12个技能的回合制战斗
+2.实现了多项功能
