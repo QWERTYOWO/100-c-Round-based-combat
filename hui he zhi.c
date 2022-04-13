@@ -530,7 +530,7 @@ int TitanAnnihilation(int player[])
         switch (maxfind)
         {
         case 1:printf("冲向了战士，造成了%d的伤害！\n",(int)(enemy_atk*4-real_zs_def));
-        zs_hp-=enemy_atk*2.2-real_zs_def;
+        zs_hp-=enemy_atk*4-real_zs_def;
             break;
         case 2:printf("冲向了黑魔法师，造成了%d的伤害！\n",(int)(enemy_atk*2.2-hm_def));
         hm_hp-=enemy_atk*2.2-hm_def;hitor++;//黑魔天赋
